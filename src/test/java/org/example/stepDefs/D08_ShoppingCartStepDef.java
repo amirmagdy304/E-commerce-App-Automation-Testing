@@ -24,8 +24,8 @@ public class D08_ShoppingCartStepDef {
                 "The product has been added to your shopping cart",
                 "Error Message: Products is not added to the cart");
     }
-    @And("user add oversized women T-shirt to the cart")
-    public void addoversizedWomenTshirtTOCart()
+    @And("user add oversize women T-shirt to the cart")
+    public void addOversizeWomenShirtTOCart()
     {
         searchPage.addToCartByItemID("28").click();
     }

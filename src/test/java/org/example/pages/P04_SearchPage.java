@@ -39,4 +39,14 @@ public class P04_SearchPage {
                 +itemID
                 +"']//button[text()='Add to wishlist']"));
     }
+    public WebElement addToCompareListByItemID(String itemID)
+    {
+        return Hooks.driver.findElement(By.xpath("//div[@data-productid='"
+                +itemID
+                +"']//button[text()='Add to compare list']"));
+    }
+    public WebElement shoppingCart()
+    {
+        return Hooks.driver.findElement(By.xpath("//*[@id=\"bar-notification\"]//a"));
+    }
 }
