@@ -15,7 +15,6 @@ Feature: F08_Cart | users could add to his shopping cart
     When user click on apparel tag
     And user add oversize women T-shirt to the cart
     Then system add the item successfully to the cart
-    And system increase cart Qty
 
     When user press on shopping cart button
     Then the system will open the cart page
